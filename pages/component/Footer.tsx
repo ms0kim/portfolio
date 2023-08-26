@@ -1,6 +1,9 @@
 import Link from "next/link"
+import { useRouter } from "next/router"
 
 export default function Footer() {
+  const route = useRouter();
+
   return (
     <div className='footer'>
       <h2>Contact</h2>
@@ -22,7 +25,7 @@ export default function Footer() {
         <li>
           <span>Technologies</span>
           <p>
-            Javascript / Typescript / Next / Vue / React / Redux<br/>
+            Javascript / Typescript / Next / Vue / React<br/>
             jQuery / Bootstrap / Django / Conda / Heroku
           </p>
         </li>
@@ -41,13 +44,18 @@ export default function Footer() {
             01092964966
           </p>
         </li>
-        <li>
-          <button className="subBtn">Github</button>
-          <button className="subBtn">Velog</button>
-          <button className="subBtn">KakaoTalk</button>
+        <li className="btns">
+          <a target="_blank" href='https://github.com/ms0kim' className="subBtn">Github</a>
+          <a target="_blank" href='https://velog.io/@ms0kim' className="subBtn">Velog</a>
+          <a target="_blank" href='https://open.kakao.com/o/s2fQhfbd' className="subBtn">KakaoTalk</a>
         </li>
-        <li>
-          <Link href="/projects">Projects<i className="ri-arrow-right-line"></i></Link>
+        <li className="menu">
+          {route.pathname == '/'
+            ?
+            <Link href="/projects">Projects<i className="ri-arrow-right-line"></i></Link>
+            :
+            <Link href="/">About<i className="ri-arrow-right-line"></i></Link>
+          }
           <p>All Rights Reserved</p>
         </li>
       </ul>

@@ -8,20 +8,19 @@ import Link from "next/link";
 export default function Project() {
   return (
     <div className="project">
-      <h2>
-        <span>
-          <img src="/assets/img/me3.jpg" alt="" />
-        </span>
-        Projects
-      </h2>
+      <h2>Projects</h2>
       <ul>
         <li className="cat">
+          <div className='img'>
+            <div></div>
+            <img src="/assets/img/back1.png" alt="" />
+          </div>
           <div>
             <div className="top">
               <p>2023 08</p>
               <h3>Cat service</h3>
-              <Link href="" className="abtn">github</Link>
-              <Link href="" className="abtn">url</Link>
+              <a target='_blank' href="https://github.com/ms0kim/cat" className="abtn">github</a>
+              <a target='_blank' href="https://cat-opal-seven.vercel.app/" className="abtn">url</a>
             </div>
             <div className="bottom">
               <ul>
@@ -82,12 +81,16 @@ export default function Project() {
           </Swiper>
         </li>
         <li className="pikavue">
+          <div className='img'>
+            <div></div>
+            <img src="/assets/img/back2.jpg" alt="" />
+          </div>
           <div>
             <div className="top">
               <p>2023 04 - 2023 05</p>
               <h3>Pikavue</h3>
-              <Link href="" className="abtn">github</Link>
-              <Link href="" className="abtn">url</Link>
+              <a target='_blank' href="https://github.com/ms0kim/pikavue" className="abtn">github</a>
+              <a target='_blank' href="https://pikavue.com/" className="abtn">url</a>
             </div>
             <div className="bottom">
               <ul>
@@ -145,12 +148,16 @@ export default function Project() {
           </Swiper>
         </li>
         <li className="platform">
+          <div className='img'>
+            <div></div>
+            <img src="/assets/img/back3.jpg" alt="" />
+          </div>
           <div>
             <div className="top">
               <p>2023 05 - 2023 07</p>
               <h3>GDF Platform</h3>
-              <Link href="" className="abtn">github</Link>
-              <Link href="" className="abtn">url</Link>
+              <a target='_blank' href="https://github.com/ms0kim/platform" className="abtn">github</a>
+              <a target='_blank' href="https://platform.gdflab.com/" className="abtn">url</a>
             </div>
             <div className="bottom">
               <ul>
@@ -204,12 +211,16 @@ export default function Project() {
           </Swiper>
         </li>
         <li className="play">
+          <div className='img'>
+            <div></div>
+            <img src="/assets/img/back4.jpg" alt="" />
+          </div>
           <div>
             <div className="top">
               <p>2023 03 - 2023 04</p>
               <h3>GDFplay</h3>
-              <Link href="" className="abtn">github</Link>
-              <Link href="" className="abtn">url</Link>
+              <a target='_blank' href="https://github.com/ms0kim/gdfplay" className="abtn">github</a>
+              <a target='_blank' href="https://gdfplay.io/" className="abtn">url</a>
             </div>
             <div className="bottom">
               <ul>
@@ -256,12 +267,16 @@ export default function Project() {
           </Swiper>
         </li>
         <li className="portfolio">
+          <div className='img'>
+            <div></div>
+            <img src="/assets/img/back5.png" alt="" />
+          </div>
           <div>
             <div className="top">
               <p>2022 12 - 2023 01</p>
               <h3>First portfolio</h3>
-              <Link href="" className="abtn">github</Link>
-              <Link href="" className="abtn">url</Link>
+              <a target='_blank' href="https://github.com/ms0kim/first" className="abtn">github</a>
+              <a target='_blank' href="https://kmsong.cafe24.com/" className="abtn">url</a>
             </div>
             <div className="bottom">
               <ul>
@@ -314,12 +329,16 @@ export default function Project() {
           </Swiper>
         </li>
         <li className="blog">
+          <div className='img'>
+            <div></div>
+            <img src="/assets/img/back6.png" alt="" />
+          </div>
           <div>
             <div className="top">
               <p>2023 02</p>
               <h3>Blog project</h3>
-              <Link href="" className="abtn">github</Link>
-              <Link href="" className="abtn">url</Link>
+              <a target='_blank' href="https://github.com/ms0kim/blog" className="abtn">github</a>
+              <a target='_blank' href="https://react-blog.herokuapp.com/" className="abtn">url</a>
             </div>
             <div className="bottom">
               <ul>

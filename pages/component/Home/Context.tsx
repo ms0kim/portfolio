@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Context() {
   return (
     <div className="context">
@@ -13,12 +15,12 @@ export default function Context() {
           <li>
             <h4>Github</h4>
             <span>그동안 작업한 프로젝트의 코드 저장소</span>
-            <button>Github/ms0kim</button>
+            <a target="_blank" className="btn" href='https://github.com/ms0kim'>Github/ms0kim</a>
           </li>
           <li>
             <h4>Velog</h4>
             <span>공부 및 지식 공유 목적의 블로그</span>
-            <button>Velog/ms0kim</button>
+            <a target="_blank" className="btn" href="https://velog.io/@ms0kim">Velog/ms0kim</a>
           </li>
         </ul>
       </div>

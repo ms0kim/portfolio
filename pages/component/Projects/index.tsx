@@ -15,11 +15,7 @@ export default function ProjectsPage() {
       setHide(true);
     }
   }
-
-  useEffect(() => { //마운트 return하면 언마운트
-    console.log(window.scrollY)
-  },[]);
-
+  
   return (
     <div onWheel={handleOnWheel}>
       <Header hide={hide} />

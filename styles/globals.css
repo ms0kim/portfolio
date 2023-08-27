@@ -467,9 +467,9 @@ a {
   justify-content: center;
 }
 .slide .swiper-slide img {
-  width: 100%;
-  height: 80%;
-  object-fit: cover;
+  max-width: 840px;
+  width: 120%;
+  object-fit: contain;
 }
 .slide .swiper-slide div {
   position: absolute;

@@ -139,13 +139,13 @@ a {
   border: 1.5px solid #201e1d;
   border-radius: 30px;
   background: #302e2d;
-  color: #fff;
+  color: var(--back);
   transition: 0.25s;
   mix-blend-mode: luminosity;
 }
 .abtn:hover {
   background: #3b3937;
-  color: #fff;
+  color: var(--back);
 }
 ::selection {
   background: #615d5b55;
@@ -1477,7 +1477,7 @@ a {
     color: var(--light-light);
     background: #302e2d53;
     padding: 5px 10px;
-    color: #fff;
+    color: var(--back);
     mix-blend-mode: luminosity;
     margin-bottom: 20px;
   }

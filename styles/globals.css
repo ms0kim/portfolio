@@ -1475,8 +1475,7 @@ a {
     font-weight: 700;
     text-transform: uppercase;
     color: var(--light-light);
-    background: #302e2d85;
-
+    background: #302e2d53;
     padding: 5px 10px;
     color: #fff;
     mix-blend-mode: luminosity;

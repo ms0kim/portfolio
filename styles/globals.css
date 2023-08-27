@@ -1127,7 +1127,6 @@ a {
   left: 0;
   background: #675c59;
   mix-blend-mode: multiply;
-  backdrop-filter: blur(5px);
 }
 .project > ul > li > div {
   width: 55%;
@@ -1421,6 +1420,8 @@ a {
     text-transform: uppercase;
     padding: 10px 25px;
     margin-bottom: 15px;
+    background: #302e2d85;
+    border-bottom: 1px solid #201e1d80;
   }
   .project ul li .swiper {
     width: 100%;
@@ -1475,8 +1476,8 @@ a {
     font-weight: 700;
     text-transform: uppercase;
     color: var(--light-light);
-    background: #302e2d;
-    border-bottom: 1px solid #201e1d;
+    background: #302e2d85;
+    border-bottom: 1px solid #201e1d80;
     padding: 5px 10px;
     color: #fff;
     mix-blend-mode: luminosity;

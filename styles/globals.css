@@ -273,7 +273,7 @@ a {
   margin-bottom: 25px;
   margin-right: 30px;
   border-radius: 100px;
-  background: var(--text);
+  background: var(--light-light);
   overflow: hidden;
 }
 .title span img {
@@ -308,7 +308,7 @@ a {
     margin-bottom: 23px;
     margin-right: 30px;
     border-radius: 100px;
-    background: var(--text);
+    background: var(--light-light);
     overflow: hidden;
   }
   .title span img {
@@ -345,7 +345,7 @@ a {
     margin-bottom: 0;
     margin-right: 30px;
     border-radius: 100px;
-    background: var(--text);
+    background: var(--light-light);
     overflow: hidden;
   }
   .title span img {
@@ -383,7 +383,7 @@ a {
     margin-bottom: 0px;
     margin-right: 30px;
     border-radius: 100px;
-    background: var(--text);
+    background: var(--light-light);
     overflow: hidden;
   }
   .title span img {
@@ -422,7 +422,7 @@ a {
     margin-bottom: 0px;
     margin-right: 30px;
     border-radius: 100px;
-    background: var(--text);
+    background: var(--light-light);
     overflow: hidden;
   }
   .title span img {

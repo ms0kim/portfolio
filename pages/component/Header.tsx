@@ -12,7 +12,7 @@ export default function Header(props:any) {
         </li>
         <li className="center">
           <Link href='/'>
-            Ms portfolio
+            <img src="/assets/img/logo.svg" alt="" />
           </Link>
         </li>
         <li className='right'>

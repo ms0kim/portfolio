@@ -216,7 +216,8 @@ a {
   transition: 1s;
 }
 .header ul li a {
-  display: block;
+  display: flex;
+  align-items: center;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -224,6 +225,10 @@ a {
 }
 .header ul li a i {
   margin-right: 5px;
+}
+.header .center a {
+  width: 60px;
+  height: 100%;
 }
 @media screen and (max-width: 767px) {
   .header {
@@ -256,6 +261,10 @@ a {
   }
   .header ul li a i {
     margin-right: 5px;
+  }
+  .header .center a {
+    width: 55px;
+    height: 100%;
   }
 }
 

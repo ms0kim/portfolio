@@ -169,9 +169,6 @@ a {
   mix-blend-mode: difference;
   z-index: 999;
 }
-.custom-cursor.active {
-  transform: translate(-50%, -50%) scale(1.4);
-}
 @media screen and (max-width: 2200px) {
   h2 {
     font-size: 200px;
@@ -210,6 +207,9 @@ a {
   h3 {
     font-size: 30px;
     line-height: 20px;
+  }
+  .custom-cursor {
+    display: none;
   }
 }
 

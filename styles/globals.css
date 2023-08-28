@@ -54,10 +54,12 @@
   font-family: 'SUIT';
 }
 body {
+  height: 100vh;
   margin: 0;
   color: var(--text);
   background: var(--back);
-  min-height: -webkit-fill-available;
+  height: -webkit-fill-available;
+  height: fill-available;
   line-height: 25px;
   width: 100%;
   overflow: hidden;

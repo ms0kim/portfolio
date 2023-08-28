@@ -17,8 +17,8 @@ export default function HomePage() {
       setHide(true);
     }
   }
-  const handleScroll = () => {
-    if (window.scrollY > 0) {
+  const handleTouchMove = (e:any) => {
+    if (e.touches[0].clientY > 0) {
       setHide(true);
     } else {
       setHide(false);
@@ -26,9 +26,9 @@ export default function HomePage() {
   }
 
   useEffect(() => { //마운트 return하면 언마운트
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("touchmove", handleTouchMove);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("touchmove", handleTouchMove);
     };
   },[]);
 

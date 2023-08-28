@@ -15,6 +15,20 @@ export default function ProjectsPage() {
       setHide(true);
     }
   }
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setHide(true);
+    } else {
+      setHide(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  },[]);
   
   return (
     <div onWheel={handleOnWheel}>

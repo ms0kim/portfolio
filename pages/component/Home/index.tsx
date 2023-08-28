@@ -17,9 +17,19 @@ export default function HomePage() {
       setHide(true);
     }
   }
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setHide(true);
+    } else {
+      setHide(false);
+    }
+  }
 
   useEffect(() => { //마운트 return하면 언마운트
-    // console.log(window.scrollY)
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   },[]);
 
   return (

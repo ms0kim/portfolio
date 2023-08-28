@@ -244,7 +244,7 @@ a {
   margin-right: 5px;
 }
 .header .center a {
-  width: 60px;
+  width: 55px;
   height: 100%;
 }
 @media screen and (max-width: 767px) {
@@ -280,7 +280,7 @@ a {
     margin-right: 5px;
   }
   .header .center a {
-    width: 55px;
+    width: 50px;
     height: 100%;
   }
 }

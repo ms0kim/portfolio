@@ -823,7 +823,7 @@ a {
   object-fit: contain;
 }
 .context .archiving ul li {
-  border-bottom: 1px solid var(--light);
+  border-bottom: 1px solid var(--light-light);
 }
 .context .archiving ul li:last-of-type {
   border-bottom: none;
@@ -900,7 +900,7 @@ a {
   }
   .context .archiving ul li {
     width: 100%;
-    border-bottom: 1px solid var(--light);
+    border-bottom: 1px solid var(--light-light);
   }
   .context .archiving ul li:last-of-type {
     border-bottom: none;
@@ -974,7 +974,7 @@ a {
   }
   .context .archiving ul li {
     width: 100%;
-    border-bottom: 1px solid var(--light);
+    border-bottom: 1px solid var(--light-light);
   }
   .context .archiving ul li:last-of-type {
     border-bottom: none;

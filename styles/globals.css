@@ -54,9 +54,12 @@
   font-family: 'SUIT';
 }
 body {
+  height: 100vh;
+  width: 100vw;
   margin: 0;
   color: var(--text);
   background: var(--back);
+  min-height: 100vh;
   min-height: -webkit-fill-available;
   line-height: 25px;
   width: 100%;
@@ -221,6 +224,9 @@ a {
   left: 0;
   z-index: 999;
 }
+.header.mobile {
+  display: none;
+}
 .hide {
   transform: translateY(-120px);
   background: transparent;
@@ -250,11 +256,18 @@ a {
 @media screen and (max-width: 767px) {
   .header {
     width: 100%;
-    position: absolute;
+    position: static;
     top: 0;
     left: 0;
     z-index: 999;
   }
+  .header.pc {
+    display: none;
+  }
+  .header.mobile {
+    display: block;
+  }
+
   .hide {
     transform: translateY(-120px);
     background: transparent;
@@ -289,12 +302,6 @@ a {
 .title {
   position: relative;
   padding: 200px 70px 0;
-}
-@keyframes title {
-  50% {
-  }
-  100% {
-  }
 }
 .title h2 {
   display: flex;
@@ -457,7 +464,7 @@ a {
   .title {
     width: 100%;
     position: relative;
-    padding: 150px 20px 0;
+    padding: 80px 20px 0;
     min-width: none;
   }
   .title h2 {
@@ -1428,7 +1435,7 @@ a {
 
 @media screen and (max-width: 767px) {
   .project {
-    padding: 150px 20px 0;
+    padding: 80px 20px 0;
   }
   .project h2 {
     display: flex;

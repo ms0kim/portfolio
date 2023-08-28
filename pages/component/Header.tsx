@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Header(props:any) {
 
   return(
-    <div className="header">
+    <div className="header pc">
       <ul className={props.hide ? 'hide' : ''}>
         <li className='left'>
           <Link href='/'>

@@ -53,14 +53,17 @@
   box-sizing: border-box;
   font-family: 'SUIT';
 }
+html {
+  height: -webkit-fill-available;
+}
 body {
   margin: 0;
   color: var(--text);
   background: var(--back);
+  min-height: 100vh;
   min-height: -webkit-fill-available;
   line-height: 25px;
   width: 100%;
-  overflow: hidden;
   cursor: none;
 }
 h2,
@@ -200,6 +203,11 @@ a {
   }
 }
 @media screen and (max-width: 767px) {
+  body {
+    @supports (-webkit-touch-callout: none) {
+      height: -webkit-fill-available;
+    }
+  }
   h2 {
     font-size: 60px;
     line-height: 50px;

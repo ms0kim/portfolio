@@ -209,6 +209,7 @@ a {
     min-height: 100vh;
     min-height: -webkit-fill-available;
     cursor: auto;
+    overflow: auto;
   }
   h2 {
     font-size: 60px;
